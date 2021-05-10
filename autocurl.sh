@@ -3,6 +3,7 @@
 echo "Automated bash script to grab http resposne banners"
 echo "This script grabs the http status code as https, you can edit it"
 echo "Usage: bash autocurl.sh host-list.txt"
+echo ""
 
 #The cat command prints the url list
 #then we use -sI curl flag so we can see only the http response
