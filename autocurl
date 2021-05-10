@@ -10,4 +10,4 @@ echo ""
 #and we made an http:// to make an url
 #grep works to only print the HTTP/
 
-for host in $(cat $1); do curl -sI https://$host/ | grep -e 'HTTP/' && echo "HOST: $sub" | grep -A1 HOST; done
+for host in $(cat $1); do curl -sI https://$host/ | grep -e 'HTTP/' && echo "HOST: $host" | grep -A1 HOST; done
